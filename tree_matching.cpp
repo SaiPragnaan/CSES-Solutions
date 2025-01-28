@@ -34,7 +34,7 @@ int main()
         adj_list[a].push_back(b);
         adj_list[b].push_back(a);
     }
-    int cnt = 0;
+    int cnt=0;
     dfs(0, 1, adj_list, used, cnt);
     cout << cnt << endl;
     return 0;
