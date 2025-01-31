@@ -26,6 +26,6 @@ int main()
     {
         cin >> vec[i];
     }
-    cout <<solve(0, n, 0, 0, vec);
+    cout <<solve(0, n, 0, 0,vec);
     return 0;
 }
